@@ -25,7 +25,7 @@ fourcc = cv2.VideoWriter_fourcc(*'XVID')
 archivo_video = None
 grabando = False
 
-model = load_model("model_mask_detection.h5")
+model = load_model("detection_model.h5")
 
 
 face_haar_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
